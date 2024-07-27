@@ -118,6 +118,9 @@ body {
 /* Our Advantages Section */
 .advantages-box {
   padding: 120px 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .advantages-list {
@@ -143,6 +146,37 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
+}
+
+/* Our Team Section */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-box {
+  padding: 120px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  justify-content: center;
+}
+
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0;
+}
+
+.team-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
 
 /* Footer */
