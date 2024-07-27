@@ -78,16 +78,6 @@ body {
 /* Hero Section */
 .hero-section {
   background-color: #2e2f42;
-}
-
-.hero-title {
-  color: #fff;
-  margin: 0;
-}
-
-/* Hero Section */
-.hero-section {
-  background-color: #2e2f42;
   width: 1440px;
   height: 600px;
   display: flex; /* Use flex to apply the gap */
@@ -100,6 +90,7 @@ body {
   color: #fff;
   font-size: 56px;
   text-align: center;
+  margin: 0;
 }
 
 .button {
@@ -127,8 +118,33 @@ body {
   background-color: #2e2f42;
 }
 
+.footer-box {
+  padding: 100px 0 100px 156px;
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  flex-direction: column;
+}
+
 .logo-light {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin: 0;
+  padding: 0;
+  width: 274px;
 }
 
 /* Our Advantages section */
