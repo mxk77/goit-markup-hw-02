@@ -198,8 +198,25 @@ body {
 .team {
   background-color: #F4F4FD;
   width: 1440px;
-height: 732px;
-top: 1016px;
+  height: 732px;
+  top: 1016px;
+  }
 
+  .team ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    gap: 24px;
+    list-style: none;
+  }
 
-}
+  .header_section{
+  padding-top: 120px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  }
