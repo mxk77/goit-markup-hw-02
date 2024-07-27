@@ -10,9 +10,19 @@ body {
 }
 
 .button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
 }
 
 .button:hover {
@@ -33,6 +43,7 @@ body {
 }
 
 .logo-dark {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
@@ -88,6 +99,20 @@ body {
 .hero-title {
   color: #fff;
   margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 496px;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+  padding: 188px 0;
 }
 
 /* Footer */
@@ -104,6 +129,7 @@ body {
 }
 
 .logo-light {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
