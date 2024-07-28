@@ -159,10 +159,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  justify-content: center;
 }
 
-.team-header {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -209,6 +208,60 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+}
+
+/* Our Portfolio section */
+.portfolio-box {
+  padding: 120px 156px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0;
+}
+
+.portfolio-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item-box {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+}
+
+.portfolio-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+  box-sizing: border-box;
 }
 
 /* Footer */
