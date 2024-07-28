@@ -128,7 +128,7 @@ body {
   display: flex;
   gap: 24px;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .advantages-header {
@@ -177,6 +177,8 @@ body {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .team-member-header {
